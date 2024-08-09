@@ -118,7 +118,8 @@ const GenerateImageForm = ({
           handelChange={(e) => setPost({ ...post, prompt: e.target.value })}
         />
         {error && <div style={{ color: "red" }}>{error}</div>}* You can post the
-        AI Generated Image to showcase in the community!
+        AI Generated Image to showcase in the community, Most of the times it
+        generates random image!
       </Body>
 
       <Actions>
